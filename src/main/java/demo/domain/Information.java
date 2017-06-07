@@ -12,7 +12,7 @@ import java.util.Date;
 @JsonInclude
 @Data
 @Entity
-public class RunningInformation {
+public class Information {
 
     private String runningId;
     private Double latitude;

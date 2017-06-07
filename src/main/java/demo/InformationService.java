@@ -1,6 +1,6 @@
 package demo;
 
-import demo.domain.RunningInformation;
+import demo.domain.Information;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class RunningInformationService {
+public class InformationService {
 
     public static void main(String[] args) {
-        SpringApplication.run(RunningInformation.class, args);
+        SpringApplication.run(Information.class, args);
     }
 }
