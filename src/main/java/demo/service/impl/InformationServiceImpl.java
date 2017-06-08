@@ -14,8 +14,12 @@ import java.util.List;
  */
 public class InformationServiceImpl implements InformationService{
 
-    @Autowired
     private InformationRepository informationRepository;
+
+    @Autowired
+    public InformationServiceImpl(InformationRepository informationRepository) {
+        this.informationRepository = informationRepository;
+    }
 
     @Override
     public List<Information> saveInformation(List<Information> informations) {
@@ -29,7 +33,7 @@ public class InformationServiceImpl implements InformationService{
 
     @Override
     public void deleteByRunningId(String runningId) {
-        informationRepository.delete(runningId);
+        informationRepository.delete(informationRepository.findByRunningId(runningId));
     }
 
     @Override

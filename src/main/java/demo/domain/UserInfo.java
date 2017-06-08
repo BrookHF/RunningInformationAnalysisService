@@ -17,7 +17,6 @@ public class UserInfo {
     private String address;
 
     public UserInfo() {
-
     }
 
     public UserInfo(String userName, String address) {
