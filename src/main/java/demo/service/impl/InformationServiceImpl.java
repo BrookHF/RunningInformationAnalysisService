@@ -6,12 +6,14 @@ import demo.service.InformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by vagrant on 6/7/17.
  */
+@Service
 public class InformationServiceImpl implements InformationService{
 
     private InformationRepository informationRepository;
@@ -22,8 +24,8 @@ public class InformationServiceImpl implements InformationService{
     }
 
     @Override
-    public List<Information> saveInformation(List<Information> informations) {
-        return informationRepository.save(informations);
+    public List<Information> saveInformation(List<Information> informationList) {
+        return informationRepository.save(informationList);
     }
 
     @Override

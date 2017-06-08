@@ -18,17 +18,17 @@ import java.util.Date;
 public class Information {
 
     @Id
-    @GeneratedValue
-    private Long id;
+    private String runningId;
 
     @Embedded
     @AttributeOverrides({
-            @AttributeOverride(name = "userName", column = @Column(name = "userInfo_userName")),
-            @AttributeOverride(name = "address", column = @Column(name = "userInfo_address"))
+            @AttributeOverride(name = "id", column = @Column(name = "userId")),
+            @AttributeOverride(name = "name", column = @Column(name = "userName")),
+            @AttributeOverride(name = "address", column = @Column(name = "userAddress"))
     })
     private UserInfo userInfo;
 
-    private String runningId;
+
     private Double latitude;
     private Double longitude;
     private Double runningDistance;
@@ -38,6 +38,6 @@ public class Information {
 
     @JsonCreator
     public Information(@JsonProperty("runningId") String runningId) {
-        this.userInfo = new UserInfo(runningId);
+        this.userInfo = new UserInfo();
     }
 }

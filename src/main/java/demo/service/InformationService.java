@@ -10,7 +10,7 @@ import java.util.List;
  * Created by vagrant on 6/7/17.
  */
 public interface InformationService {
-    List<Information> saveInformation(List<Information> information);
+    List<Information> saveInformation(List<Information> informationList);
 
     void deleteAll();
 
