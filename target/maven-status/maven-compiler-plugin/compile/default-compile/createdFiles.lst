@@ -1,7 +1,9 @@
-com/runninginformationservice/demo/DemoApplication.class
-com/runninginformationservice/demo/service/impl/InformationServiceImpl.class
-com/runninginformationservice/demo/service/InformationService.class
-com/runninginformationservice/demo/rest/InformationController.class
-com/runninginformationservice/demo/domain/InformationRepository.class
-com/runninginformationservice/demo/domain/Information.class
-com/runninginformationservice/demo/domain/UserInfo.class
+com/cs504/fang/informationanalysis/domain/HealthLevel$HealthWarningLevel.class
+com/cs504/fang/informationanalysis/domain/Information.class
+com/cs504/fang/informationanalysis/service/InformationService.class
+com/cs504/fang/informationanalysis/domain/InformationRepository.class
+com/cs504/fang/informationanalysis/domain/HealthLevel.class
+com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.class
+com/cs504/fang/informationanalysis/domain/UserInfo.class
+com/cs504/fang/informationanalysis/rest/InformationController.class
+com/cs504/fang/informationanalysis/InformationAnalysisApplication.class
