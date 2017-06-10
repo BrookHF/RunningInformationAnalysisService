@@ -12,5 +12,6 @@ import java.util.List;
 @RepositoryRestResource(path="/information")
 public interface InformationRepository extends PagingAndSortingRepository<Information, String> {
 
-    List<Information> findByRunningId(@Param("/runningId") String runningId);
+
+    //List<Information> findByRunningId(@Param("/runningId") String runningId);
 }

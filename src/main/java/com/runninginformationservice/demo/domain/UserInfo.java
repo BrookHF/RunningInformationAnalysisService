@@ -15,19 +15,20 @@ import javax.persistence.Id;
 @Embeddable
 public class UserInfo {
 
+
     @Id
     @GeneratedValue
     private Long id;
 
-    private String userName;
+    private String name;
     private String address;
 
     public UserInfo() {
     }
 
-    public UserInfo(Long id, String userName, String address) {
+    public UserInfo(Long id, String name, String address) {
         this.id = id;
-        this.userName = userName;
+        this.name = name;
         this.address = address;
     }
 }

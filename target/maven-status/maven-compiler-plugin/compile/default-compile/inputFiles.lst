@@ -1,7 +1,7 @@
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/DemoApplication.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/service/InformationService.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/service/impl/InformationServiceImpl.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/domain/Information.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/domain/InformationRepository.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/domain/UserInfo.java
-/home/vagrant/workspace/runningInformation/src/main/java/com/runninginformationservice/demo/rest/InformationController.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/rest/InformationController.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/domain/InformationRepository.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/domain/Information.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/DemoApplication.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/domain/UserInfo.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/service/impl/InformationServiceImpl.java
+/home/vagrant/workspace/RunningInformation/src/main/java/com/runninginformationservice/demo/service/InformationService.java

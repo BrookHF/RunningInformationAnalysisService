@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -15,7 +14,6 @@ import java.util.Date;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
 @Entity
-@Table(name="runningInformation")
 public class Information {
 
     @Id
@@ -37,8 +35,8 @@ public class Information {
     private Double heartRate;
     private Date Timestamp;
 
-    @JsonCreator
-    public Information(@JsonProperty("runningId") String runningId) {
-        this.userInfo = new UserInfo();
-    }
+//    @JsonCreator
+//    public Information(@JsonProperty("runningId") String runningId) {
+//        this.userInfo = new UserInfo();
+//    }
 }
