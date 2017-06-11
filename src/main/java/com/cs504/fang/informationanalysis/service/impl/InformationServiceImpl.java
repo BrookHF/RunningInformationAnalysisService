@@ -41,14 +41,14 @@ public class InformationServiceImpl implements InformationService {
 
     @Override
     public Page<HealthLevel> getHealthList(int pageNumber) {
-        Page<Information> informationPage = informationRepository.getAllByIdExistsOrderByHeartRateDesc(new PageRequest(pageNumber, 2));
+        Page<Information> informationPage = informationRepository.findAll(
+                new PageRequest(pageNumber,2, Sort.Direction.DESC, "heartRate"));
         // convert information to requested JSON response
         Page<HealthLevel> healthLevelPage = informationPage.map(new Converter<Information, HealthLevel>() {
             @Override
             public HealthLevel convert(Information information) {
-                HealthLevel healthLevel = new HealthLevel();
+                HealthLevel healthLevel = new HealthLevel(information.getRunningId());
 
-                healthLevel.setRunningId(information.getRunningId());
                 healthLevel.setTotalRunningTime(information.getTotalRunningTime());
                 healthLevel.setHeartRate(information.getHeartRate());
                 healthLevel.setUserId(information.getId());
@@ -65,6 +65,7 @@ public class InformationServiceImpl implements InformationService {
                 return healthLevel;
             }
         });
+
         return healthLevelPage;
     }
 

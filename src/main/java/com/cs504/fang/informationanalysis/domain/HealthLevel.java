@@ -1,10 +1,13 @@
 package com.cs504.fang.informationanalysis.domain;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 /**
  * Created by vagrant on 6/10/17.
  */
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
 public class HealthLevel {
 
@@ -12,7 +15,7 @@ public class HealthLevel {
         HIGH, NORMAL, LOW
     }
 
-    private String runningId;
+    private final String runningId;
     private double totalRunningTime;
     private int heartRate;
     private long userId;
@@ -20,7 +23,8 @@ public class HealthLevel {
     private String userAddress;
     private HealthWarningLevel healthWarningLevel;
 
-    public HealthLevel() {
-
+    @JsonCreator
+    public HealthLevel(String runningId) {
+        this.runningId = runningId;
     }
 }

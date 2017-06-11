@@ -12,6 +12,7 @@ import java.util.Date;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
 @Entity
+@Table(name="RUNNING_ANALYSIS")
 public class Information {
 
     @Id

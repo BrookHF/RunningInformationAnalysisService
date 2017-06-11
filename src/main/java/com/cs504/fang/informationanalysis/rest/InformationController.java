@@ -30,8 +30,8 @@ public class InformationController {
     }
 
     @RequestMapping(value = "/health/{pageNumber}", method = RequestMethod.GET)
-    public Page<HealthLevel> getList(@PathVariable int pageNamber) {
-        return informationService.getHealthList(pageNamber);
+    public Page<HealthLevel> getList(@PathVariable int pageNumber) {
+        return informationService.getHealthList(pageNumber);
     }
 
     @RequestMapping(value = "/purge", method = RequestMethod.POST)

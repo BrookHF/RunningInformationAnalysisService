@@ -19,6 +19,6 @@ public interface InformationRepository extends PagingAndSortingRepository<Inform
     Information findByRunningId(@Param("runningId") String runningId);
 
     @RestResource(path="heartRateDesc")
-    Page<Information> getAllByIdExistsOrderByHeartRateDesc(Pageable pageable);
+    Page<Information> findAllByIdExistsOrderByHeartRateDesc(Pageable pageable);
 
 }

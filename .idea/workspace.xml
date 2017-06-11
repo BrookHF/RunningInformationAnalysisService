@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72033b6d-1300-4082-9e9b-9a1e09e62c94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/HealthLevel$HealthWarningLevel.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/HealthLevel$HealthWarningLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/HealthLevel.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/HealthLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/Information.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/Information.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/InformationRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/domain/InformationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/rest/InformationController.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/rest/InformationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/information-analysis-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/HealthLevel.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/HealthLevel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,28 +44,42 @@
       <file leaf-file-name="HealthLevel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/HealthLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InformationController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            <state relative-caret-position="173">
+              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -67,8 +88,8 @@
       <file leaf-file-name="InformationServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="93">
+              <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -77,21 +98,9 @@
       <file leaf-file-name="Information.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar!/org/springframework/data/domain/Page.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#373#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -166,11 +175,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/runninginformationservice/demo/domain/InformationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/runninginformationservice/demo/domain/Information.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/HealthLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java" />
       </list>
     </option>
   </component>
@@ -202,10 +212,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="562" />
+    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1180" />
-    <option name="height" value="921" />
+    <option name="width" value="1744" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -869,10 +879,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33184000" />
+    <option name="totallyTimeSpent" value="36337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="562" y="25" width="1180" height="921" extended-state="0" />
+    <frame x="-1" y="25" width="1744" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -890,7 +900,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22721438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23327465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15588236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -981,7 +991,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/service/impl/InformationServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/InformationRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/InformationService.java" />
@@ -1168,18 +1177,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/HealthLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1187,31 +1216,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/InformationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/rest/InformationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cs504/fang/informationanalysis/domain/InformationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="173">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding />
         </state>
       </provider>
