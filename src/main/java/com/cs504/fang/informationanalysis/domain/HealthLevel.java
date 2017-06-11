@@ -1,8 +1,11 @@
 package com.cs504.fang.informationanalysis.domain;
 
+import lombok.Data;
+
 /**
  * Created by vagrant on 6/10/17.
  */
+@Data
 public class HealthLevel {
 
     public enum HealthWarningLevel {
@@ -15,7 +18,7 @@ public class HealthLevel {
     private long userId;
     private String userName;
     private String userAddress;
-    private HealthLevel healthLevel;
+    private HealthWarningLevel healthWarningLevel;
 
     public HealthLevel() {
 

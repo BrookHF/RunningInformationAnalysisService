@@ -1,5 +1,6 @@
 com/cs504/fang/informationanalysis/domain/HealthLevel$HealthWarningLevel.class
 com/cs504/fang/informationanalysis/domain/Information.class
+com/cs504/fang/informationanalysis/service/impl/InformationServiceImpl$1.class
 com/cs504/fang/informationanalysis/service/InformationService.class
 com/cs504/fang/informationanalysis/domain/InformationRepository.class
 com/cs504/fang/informationanalysis/domain/HealthLevel.class

@@ -7,6 +7,8 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
+import java.util.List;
+
 @RepositoryRestResource(path="locations")
 public interface InformationRepository extends PagingAndSortingRepository<Information, Long> {
 
@@ -15,4 +17,8 @@ public interface InformationRepository extends PagingAndSortingRepository<Inform
 
     @RestResource(path="runningId")
     Information findByRunningId(@Param("runningId") String runningId);
+
+    @RestResource(path="heartRateDesc")
+    Page<Information> getAllByIdExistsOrderByHeartRateDesc(Pageable pageable);
+
 }

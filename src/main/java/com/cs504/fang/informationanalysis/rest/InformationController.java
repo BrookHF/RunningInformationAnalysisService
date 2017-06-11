@@ -1,9 +1,11 @@
 package com.cs504.fang.informationanalysis.rest;
 
 
+import com.cs504.fang.informationanalysis.domain.HealthLevel;
 import com.cs504.fang.informationanalysis.domain.Information;
 import com.cs504.fang.informationanalysis.service.InformationService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +27,11 @@ public class InformationController {
     @ResponseStatus(HttpStatus.CREATED)
     public void upload(@RequestBody List<Information> information) {
         this.informationService.saveInformationList(information);
+    }
+
+    @RequestMapping(value = "/health/{pageNumber}", method = RequestMethod.GET)
+    public Page<HealthLevel> getList(@PathVariable int pageNamber) {
+        return informationService.getHealthList(pageNamber);
     }
 
     @RequestMapping(value = "/purge", method = RequestMethod.POST)

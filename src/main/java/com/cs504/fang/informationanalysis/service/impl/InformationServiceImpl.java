@@ -6,8 +6,14 @@ import com.cs504.fang.informationanalysis.domain.Information;
 import com.cs504.fang.informationanalysis.domain.InformationRepository;
 import com.cs504.fang.informationanalysis.service.InformationService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.converter.Converter;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.util.Iterator;
 import java.util.List;
 
 @Service
@@ -34,8 +40,32 @@ public class InformationServiceImpl implements InformationService {
     }
 
     @Override
-    public void getList(List<HealthLevel> healthLevels) {
+    public Page<HealthLevel> getHealthList(int pageNumber) {
+        Page<Information> informationPage = informationRepository.getAllByIdExistsOrderByHeartRateDesc(new PageRequest(pageNumber, 2));
+        // convert information to requested JSON response
+        Page<HealthLevel> healthLevelPage = informationPage.map(new Converter<Information, HealthLevel>() {
+            @Override
+            public HealthLevel convert(Information information) {
+                HealthLevel healthLevel = new HealthLevel();
 
+                healthLevel.setRunningId(information.getRunningId());
+                healthLevel.setTotalRunningTime(information.getTotalRunningTime());
+                healthLevel.setHeartRate(information.getHeartRate());
+                healthLevel.setUserId(information.getId());
+                healthLevel.setUserName(information.getUserInfo().getUsername());
+                healthLevel.setUserAddress(information.getUserInfo().getAddress());
+                if(healthLevel.getHeartRate() <= 75) {
+                    healthLevel.setHealthWarningLevel(HealthLevel.HealthWarningLevel.LOW);
+                } else if (healthLevel.getHeartRate() <= 120) {
+                    healthLevel.setHealthWarningLevel(HealthLevel.HealthWarningLevel.NORMAL);
+                } else {
+                    healthLevel.setHealthWarningLevel(HealthLevel.HealthWarningLevel.HIGH);
+                }
+
+                return healthLevel;
+            }
+        });
+        return healthLevelPage;
     }
 
     @Override
